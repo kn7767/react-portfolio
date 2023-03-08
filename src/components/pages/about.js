@@ -1,3 +1,5 @@
+import React from 'react';
+
 function About() {
     return (
         <div className="about">
@@ -5,7 +7,7 @@ function About() {
                 About me
             </h4>
             <p>
-                I like cats.
+                poopoopeepee
             </p>
         </div>
     )

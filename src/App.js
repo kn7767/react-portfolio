@@ -1,25 +1,22 @@
 import './App.css';
+import React from 'react';
 
 // import components
-import Header from './components/header';
-// import Nav from './components/nav';
-import Footer from './components/footer';
-import Portfolio from './components/pages/portfolio';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import PortfolioContainer from './components/PortfolioContainer';
 
-// import function
-import portfolioContainer from './components/portfolioContainer';
-
-
+//keeps header and footer static 
 function App() {
   return (
     <div>
       <Header></Header>
-      {/* <Nav /> */}
-      {/* <Portfolio></Portfolio> */}
+        <div>
+          <PortfolioContainer></PortfolioContainer>
+        </div>
       <Footer></Footer>
     </div>
   );
 }
-// portfolioContainer();
 
 export default App;
