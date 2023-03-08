@@ -1,15 +1,15 @@
-import React, { UseState } from 'react';
-import { render } from '@testing-library/react';
+// import { render } from '@testing-library/react';
+import React, { useState, useEffect } from 'react';
 
 //import components 
+import Nav from './nav';
 import Home from './pages/home';
 import About from './pages/about';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
-import Nav from './nav';
 
 export default function portfolioContainer() {
-    const [ currentPage, setCurrentPage ] = UseState('Home');
+    const [currentPage, setCurrentPage] = useState('Home');
 
     const renderPage = () => {
         if (currentPage === 'Home') {

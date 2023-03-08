@@ -2,7 +2,7 @@ import './App.css';
 
 // import components
 import Header from './components/header';
-import Nav from './components/nav';
+// import Nav from './components/nav';
 import Footer from './components/footer';
 import Portfolio from './components/pages/portfolio';
 
@@ -14,13 +14,12 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <Nav></Nav>
-      <Portfolio></Portfolio>
+      {/* <Nav /> */}
+      {/* <Portfolio></Portfolio> */}
       <Footer></Footer>
     </div>
   );
 }
-portfolioContainer();
-
+// portfolioContainer();
 
 export default App;
