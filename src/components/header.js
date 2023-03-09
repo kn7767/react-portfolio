@@ -1,5 +1,4 @@
 //creates the static header portion of the page
-
 import React from 'react';
 
 function Header() {
