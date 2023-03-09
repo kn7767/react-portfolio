@@ -2,10 +2,16 @@ import React from 'react';
 
 function Contact() {
     return (
-        <div>
-            <h4>Contact me!</h4>
-            <a href = "mailto: knguy219@ucr.edu">Send Email</a>
-            <a href = "https://github.com/kn7767">GitHub</a>
+        <div className='container2'>
+            <h1>Contact me!</h1>
+            <ul>
+                <li className='contact-info'>
+                    <a href = "mailto: knguy219@ucr.edu">Send Email</a>
+                </li>
+                <li className='contact-info'>
+                    <a href = "https://github.com/kn7767">GitHub</a>
+                </li>
+            </ul>
         </div>
     );
 }

@@ -2,10 +2,10 @@ import React from 'react';
 
 function About() {
     return (
-        <div className="about">
-            <h4 className="about-title">
+        <div className="container2">
+            <h1 className="about-title">
                 About me
-            </h4>
+            </h1>
             <p>
                 poopoopeepee
             </p>
