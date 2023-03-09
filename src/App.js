@@ -9,7 +9,7 @@ import PortfolioContainer from './components/PortfolioContainer';
 //keeps header and footer static 
 function App() {
   return (
-    <div>
+    <div className='container'>
       <Header></Header>
         <div>
           <PortfolioContainer></PortfolioContainer>

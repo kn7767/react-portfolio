@@ -4,9 +4,9 @@ import React from 'react';
 
 function Header() {
     return (
-        <div>
+        <div className='header-body'>
             <h1>
-                Header
+                Kaylee Nguyen
             </h1>
         </div>
     );

@@ -1,3 +1,10 @@
+:root {
+  --green1: darkseagreen; 
+  --green2: darkslategray;
+  --green3: rgb(16, 19, 19);
+  --white: rgb(241, 248, 230);
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +12,47 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+body {
+  background-color: var(--green2);
+}
+.container {
+  padding: 20px 40px 20px 40px;
+}
+.header-body {
+  background-color: var(--green3);
+  padding: 60px;
+  border-radius: 10px 10px 0px 0px;
+}
+.header-body > h1 {
+  color: var(--green1);
+}
+
+.nav {
+  background-color: var(--green1);
+  color: var(--green3);
+  list-style: none;
+  margin-top: -10px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  text-decoration: none;
+  border-radius: 0px 0px 10px 10px;
+}
+.nav > li {
+  display: inline;
+}
+.nav > li > a:visited {
+  color: var(--green3);
+  text-decoration: none;
+}
+.nav > li > a:hover {
+  color: var(--white);
+  transition: .25s;
+  text-decoration: none;
+}
+.divider {
+  padding: 0px 15px 0px 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

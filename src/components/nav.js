@@ -14,6 +14,7 @@ function Nav({ currentPage, handlePageChange }) {
                     Home
                 </a>
             </li>
+            <span className='divider'>|</span>
             <li className="nav-item">
                 <a
                 href="#About"
@@ -23,6 +24,7 @@ function Nav({ currentPage, handlePageChange }) {
                     About
                 </a>
             </li>
+            <span className='divider'>|</span>
             <li className="nav-item">
                 <a
                 href="#Portfolio"
@@ -32,6 +34,7 @@ function Nav({ currentPage, handlePageChange }) {
                     Projects
                 </a>
             </li>
+            <span className='divider'>|</span>
             <li className="nav-item">
                 <a
                 href="#Contact"
